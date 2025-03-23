@@ -1,13 +1,13 @@
 
 const imageArray = [
-    '/images/bulbasaur.jpeg',
-    '/images/charmendar.jpeg',
-    '/images/meowscarda.jpeg',
-    '/images/eevee.jpeg',
-    '/images/mudkip.jpeg',
-    '/images/pikachu.jpeg',
-    '/images/squirtle.jpeg',
-    '/images/vulpix.jpeg',
+    'images/bulbasaur.jpeg',
+    'images/charmendar.jpeg',
+    'images/meowscarda.jpeg',
+    'images/eevee.jpeg',
+    'images/mudkip.jpeg',
+    'images/pikachu.jpeg',
+    'images/squirtle.jpeg',
+    'images/vulpix.jpeg',
 ]
 
 const gamebox = document.querySelector('.game-box')
