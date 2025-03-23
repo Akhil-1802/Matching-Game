@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(255, 255, 0, 0.474);
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.topofgame{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game-heading {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.game-desc {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.game-box {
+  margin-top: 30px;
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+.box {
+  cursor: pointer;
+  border: 2px solid black;
+  width: 90px;
+  border-radius: 7px;
+  background-color: rgba(255, 0, 0, 0.627);
+  height: 90px;
+}
+
+
+.box img{
+  display: none;
+  height: 86px;
+  width: 87px;
+  border-radius: 6px;
+}
+
+.start{
+  margin: 100px 0px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: brown;
+  border-radius: 8px;
+  border:2px solid rgba(68, 85, 73, 0.521);
+  background-color:rgba(212, 83, 83, 0.521);
+}
+
+.moves{
+  display: none;
+  text-align: center;
+  padding: 10px 16px;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 100px;
+  background-color: rgba(222, 184, 135, 0.664);
+  height: 20px;
+}
+.resetbtn{
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 10px 30px;
+  font-size:16px;
+  display: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(25, 18, 18);
+  border-radius: 8px;
+  border:2px solid rgba(69, 85, 68, 0.68);
+  background-color:rgba(83, 212, 122, 0.756);
+}
+
+.resetbtn_div{
+  text-align: -webkit-center;
+}
+
+.newgamebtn{
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 10px 30px;
+  font-size:16px;
+  display: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(25, 18, 18);
+  border-radius: 8px;
+  border:2px solid rgba(69, 85, 68, 0.68);
+  background-color:rgba(212, 143, 83, 0.756);
+}
+.button-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10;
+}
+.highscore{
+  padding: 10px 20px;
+  border: 2px solid rgb(56, 160, 91);
+  background-color: rgb(87, 195, 57);
+  color: rgb(26, 70, 36);
+  border-radius: 10px;
+  display: block;
+}
+.game-heading-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.highscore_{
+  padding: 10px 20px;
+  border: 2px solid rgb(56, 160, 91);
+  background-color: rgb(87, 195, 57);
+  color: rgb(26, 70, 36);
+  border-radius: 10px;
+  display: none;
+}
