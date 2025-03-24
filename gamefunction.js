@@ -115,8 +115,7 @@ function handleCardClick(event){
     box.setAttribute("disabled", false);
     box.firstElementChild.style.display ='block'
     const classes = box.classList
-    const image = box.getElementsByTagName('img')[0].src.split('3000')[1]
-    console.log(box.getElementsByTagName('img'))
+    const image = box.getElementsByTagName('img')[0].src.split('Matching-Game')[1]
     setTimeout(() => {
         if(tempbox.length === 0 )
             tempbox.push({box:classes[1],image})
