@@ -150,8 +150,6 @@ function handleCardClick(event){
             box[0].style.backgroundColor = 'transparent'
             box[0].getElementsByTagName('img')[0].style.display = 'block'
         })
-        console.log(tempbox)
-        console.log(resultbox)
         endgame()
     }, 100);
 }
