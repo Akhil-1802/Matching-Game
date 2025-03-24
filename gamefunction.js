@@ -111,13 +111,12 @@ function endgame(){
 //After that those which are present in the resultbox array are visible to the user only .THis is the logic that i used in this matcher game
 function handleCardClick(event){
     const box = event.target;
-    console.log(box)
     box.style.backgroundColor = 'transparent'
     box.setAttribute("disabled", false);
     box.firstElementChild.style.display ='block'
     const classes = box.classList
     const image = box.getElementsByTagName('img')[0].src.split('3000')[1]
-
+    console.log(box.getElementsByTagName('img'))
     setTimeout(() => {
         if(tempbox.length === 0 )
             tempbox.push({box:classes[1],image})
